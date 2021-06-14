@@ -1,0 +1,39 @@
+.notificationItem{
+  width: 266px;
+  height: 40px;
+  position: fixed;
+  bottom: 3%;
+  right: calc(50% - 133px);
+  border-radius: 4px;
+  margin: auto;
+  background-color: rgba(0,0,0,.87);
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+}
+.userNotification{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255, 244, 244, 0.87) 
+}
+.notificationButton{
+  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(218, 39, 128, 0.87);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+
+.checkedIcon{
+  background-image: url(./checked.png);
+  background-size: contain;
+  background-position: 0 0;
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,40 @@
+.listItem{
+  width: 90vw;
+  height: 72px;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(211, 209, 209);
+}
+.visitorInfo{
+  width: 700px;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.updateCard, .deleteCard{
+  height: 95%;
+  margin: auto;
+  background-color:rgba(0, 0, 0, 0);
+  border: none;
+}
+.updateCard{
+  width: 77px;  
+}
+.deleteCard{
+  width: 68px; 
+}
+
+.updateCard:hover, .deleteCard:hover{
+  background-color: rgb(243, 237, 237);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.updateCard:focus, .deleteCard:focus{
+  background-color: rgb(243, 237, 237);
+  border-radius: 4px;
+  border: 2px solid gray;
+}
